@@ -1,0 +1,8 @@
+[{
+  "modid": "testmod",
+  "name": "Test Mod",
+  "description": "${description}",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "logo.png"
+}]
