@@ -8,7 +8,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 
 @Mod(modid="testMod2",name="Test Mod2",version="1.0")
-public class Main2 {//Использование SideOnly вместо прокси
+public class Main2 {//РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ SideOnly РІРјРµСЃС‚Рѕ РїСЂРѕРєСЃРё
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 	}
@@ -24,7 +24,7 @@ public class Main2 {//Использование SideOnly вместо прокси
 	@SideOnly(Side.CLIENT)
 	@EventHandler
 	public void preInitClient(FMLPreInitializationEvent event) {
-		//Все методы, помеченные @EventHandler будут выполнены, поэтому не нужно вызывать preInit из preInitClient и preInitServer
+		//Р’СЃРµ РјРµС‚РѕРґС‹, РїРѕРјРµС‡РµРЅРЅС‹Рµ @EventHandler Р±СѓРґСѓС‚ РІС‹РїРѕР»РЅРµРЅС‹, РїРѕСЌС‚РѕРјСѓ РЅРµ РЅСѓР¶РЅРѕ РІС‹Р·С‹РІР°С‚СЊ preInit РёР· preInitClient Рё preInitServer
 	}
 	
 	@SideOnly(Side.CLIENT)

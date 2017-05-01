@@ -1,6 +1,6 @@
 package testmod;
 
-public class ServerProxy extends CommonProxy {//Серверные действия
+public class ServerProxy extends CommonProxy {//РЎРµСЂРІРµСЂРЅС‹Рµ РґРµР№СЃС‚РІРёСЏ
     
     public void preInit(FMLPreInitializationEvent event) {
         super.preInit(event);

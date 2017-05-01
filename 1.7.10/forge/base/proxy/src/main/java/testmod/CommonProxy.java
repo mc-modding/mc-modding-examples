@@ -1,6 +1,6 @@
 package testmod;
 
-public class CommonProxy {//То, что выполняется и на клиенте и на сервере
+public class CommonProxy {//Р’СЃРµ, С‡С‚Рѕ РІС‹РїРѕР»РЅВ¤РµС‚СЃВ¤ Рё РЅР° РєР»РёРµРЅС‚Рµ Рё РЅР° СЃРµСЂРІРµСЂРµ
 
     public void preInit(FMLPreInitializationEvent event) {
         
